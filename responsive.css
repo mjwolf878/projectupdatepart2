@@ -1,27 +1,41 @@
 @media screen and (max-width: 400px){
+
+#drawer{
+  width:100px;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  order:0;
+}
+
 body{
   display:flex;
   flex-wrap:wrap;
 }
-  .hero {
-    order: 0;
-    background-image: url("./images/dog.jpg");
-    background-size: cover;
-    height: auto;
+
+  .top-news{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   .news top-news a{
-    order:1;
     padding: 1.5em;
   }
   .scores {
-    order:2;
+    width:100%
+    order:3;
 
   }
   .weather{
-    order:3;
+    width: 100%;
+    order:4;
   }
   .recent-news{
-    order:4;
+    width: 100%;
+    order:5;
   }
   .footer{
     order: 5;
